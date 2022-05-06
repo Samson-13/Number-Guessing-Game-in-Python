@@ -30,5 +30,4 @@ if __name__ == '__main__':
     generate = int(input("Type a number: "))
     print("The random number is between 1 to %d." %(generate))
     number = random.randint(1, generate)
-    print(number)
     guessTheNumber(number,generate)
